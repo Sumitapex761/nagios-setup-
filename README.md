@@ -8,7 +8,8 @@ sudo apt-get install -y apache2 apache2-utils autoconf gcc libc6 libgd-dev make 
 
 # 2. Download Nagios Core from Official Website
 cd /tmp
-wget https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.5.0.tar.gz
+wget --no-check-certificate https://assets.nagios.com/downloads/ncpa/ncpa-latest.amd64.deb
+
 
 # 3. Extract the Tar File
 tar -zxf nagios-4.5.0.tar.gz
