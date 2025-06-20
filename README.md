@@ -1,10 +1,9 @@
 ✅ Nagios Core Installation Commands
 
 
-
 # 1. System Update & Install Required Dependencies
 sudo apt-get update -y
-sudo apt-get install -y apache2 apache2-utils autoconf gcc libc6 libgd-dev make php python3 tree unzip wget libkrb5-dev openssl libssl-dev
+sudo apt-get install -y apache2 apache2-utils autoconf gcc libc6 libgd-dev make php python3 tree unzip wget libkrb5-dev openssl libssl-dev  
 
 # 2. Download Nagios Core from Official Website
 cd /tmp
